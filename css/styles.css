@@ -8,7 +8,14 @@
     --contact-footer-color: rgba(255, 255, 255, 0.6);
 
  }
- 
+ html {
+    box-sizing: border-box;
+ }
+ *,
+ *::before,
+ *::after {
+    box-sizing: inherit;
+ }
 
 /* колір основного тексту color: #757575; */
 
@@ -21,6 +28,7 @@
 /* background: #F5F4FA; */
  
  body {
+    margin: 0;
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     font-family: Roboto, sans-serif;
@@ -32,6 +40,14 @@ ul {
     list-style: none;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
 
 /* logo */
 
@@ -101,6 +117,9 @@ ul {
 /* Hero */
 .hero {
     background-color: var(--hero-footer-bgc);
+    text-align: center;
+    font-weight: 1600;
+    
 }
 
 .hero-title {
