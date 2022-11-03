@@ -94,7 +94,7 @@ button {
 
 /* site-nav */
 .page-header {
-  border-bottom: 1px var(--border-header-color);
+  border-bottom: 1px solid var(--border-header-color);
 }
 .nav {
   display: flex;
